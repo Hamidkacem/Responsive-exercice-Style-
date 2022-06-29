@@ -9,11 +9,10 @@ Body {
   display: flex;
   flex-direction: column;
 }
-.img{
+.img {
   display: flex;
   justify-content: flex-start;
   padding: 2em;
-
 }
 
 .container {
@@ -23,7 +22,7 @@ Body {
   flex-direction: column;
 }
 @media (min-width: 50em) {
-  .container{
+  .container {
     flex-direction: row;
   }
 }
@@ -31,10 +30,16 @@ Body {
   padding: 1em;
   border-radius: 30px;
   border-color: aliceblue;
-  color: #E28525;
+  background-color: #e28525;
+  color: white;
   width: 60%;
   align-items: center;
-  
+}
+#btn1 {
+  background-color: #016972;
+}
+#btn2 {
+  background-color: #00403f;
 }
 img {
   width: 80px;
@@ -46,11 +51,11 @@ img {
   padding-bottom: 30px;
 }
 #car-model1 {
-  background-color: #E28525;
+  background-color: #e28525;
 }
 #car-model2 {
   background-color: #016972;
 }
 #car-model3 {
-  background-color: #00403F;
+  background-color: #00403f;
 }
