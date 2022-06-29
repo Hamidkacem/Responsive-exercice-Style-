@@ -1,0 +1,56 @@
+Body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20%;
+}
+.Car-model {
+  display: flex;
+  flex-direction: column;
+}
+.img{
+  display: flex;
+  justify-content: flex-start;
+  padding: 2em;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  flex-direction: column;
+}
+@media (min-width: 50em) {
+  .container{
+    flex-direction: row;
+  }
+}
+.btn-primary {
+  padding: 1em;
+  border-radius: 30px;
+  border-color: aliceblue;
+  color: #E28525;
+  width: 60%;
+  align-items: center;
+  
+}
+img {
+  width: 80px;
+}
+
+.Car-model {
+  text-align: center;
+  gap: 2em;
+  padding-bottom: 30px;
+}
+#car-model1 {
+  background-color: #E28525;
+}
+#car-model2 {
+  background-color: #016972;
+}
+#car-model3 {
+  background-color: #00403F;
+}
